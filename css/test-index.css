@@ -1,0 +1,578 @@
+img{ margin:0; padding:0;list-style:none; border:0;}
+/*在ie6下li里的图片下会有几像素的空白*/
+img{display:block;}
+/*头图侧边导航所有的红色字体样式*/
+	.colord51819{color:#d51819!important;}
+/*头图背景*/
+	.mbshop_home_page_Z_banner{
+		width:100%;
+		height:528px;		
+	}
+/*头图版心*/
+	.mbshop_home_page_Z_banner_wrap{
+		width:1200px;
+		height:528px;
+		margin:0 auto;
+		background-color:#fff;
+	}
+/*轮播图左侧开始*/
+	.mbshop_home_page_V_sub_nav_box{
+		width:224px; 
+		height: 527px; 
+		border:1px solid #dcdcdc;
+		border-top:0; 
+		padding-left:14px; 
+		float:left; position: 
+		relative; 
+		z-index: 99;
+	}
+	.mbshop_home_page_V_sub_nav li{
+		width: 224px; 
+		height:auto;
+	}
+	.mbshop_home_page_V_sub_nav li:hover i{display: none;}
+	.mbshop_home_page_V_sub_nav dt{
+		margin-top:15px;
+		margin-bottom:5px;
+		position:relative;
+		overflow:hidden;
+	}
+	.mbshop_home_page_V_sub_nav i{
+		position:absolute;
+		top:3px;
+		right:14px;
+		width:6px;
+		height:10px;
+		background:url(http://s.mb-go.com/pub7/images/mbshop/20150720/asidearr.png) no-repeat;
+	}
+	.mbshop_home_page_V_sub_nav a{
+		display:inline-block;
+		font:12px/22px "Microsoft YaHei";
+		padding-right:10px;
+		overflow:hidden;
+	}
+	/*头图侧边导航li：hover时弹出的二级菜单盒子样式*/
+	.mbshop_home_page_V_sub_nav li .Zindex_sub_nav_hover_wrap{overflow:hidden;}
+	.mbshop_home_page_V_sub_nav li .Zindex_sub_nav_hover_con{
+		 width: 720px;
+		 height: 527px;
+		 border:1px solid #999;
+		 border-top:0;
+		 background-color:#fefefe;
+		 background:rgba(254,254,254,0.96);
+		 position: absolute; 
+		 top: 0;
+		 left: 238px;  
+		 z-index: 99; 
+		 display:none; 
+	}
+	/*侧边导航对应的小三角*/
+	.Zindex_sub_nav_hover_con span{
+		position:absolute;
+		left:-7px;
+		width:7px;
+		height:14px;
+		background:url(http://s.mb-go.com/pub7/images/mbshop/20150720/indexhoverarr.png) no-repeat;
+	}
+	.Zindex_span_position1 .Zindex_sub_nav_hover_con  span{top:17px; }
+	.Zindex_span_position2 .Zindex_sub_nav_hover_con  span{top:100px;}
+	.Zindex_span_position3 .Zindex_sub_nav_hover_con  span{top:181px;}
+	.Zindex_span_position4 .Zindex_sub_nav_hover_con  span{top:264px;}
+	.Zindex_span_position5 .Zindex_sub_nav_hover_con  span{top:346px;}
+	.Zindex_span_position6 .Zindex_sub_nav_hover_con  span{top:429px;}
+
+	/*li：hover时二级菜单的左边样式*/
+		.Zindex_sub_nav_hover_con_left{
+			width:165px;
+			height:513px;
+			float:left;
+			border-right:1px solid #dcdcdc;
+			padding:14px 0 0 14px;
+			overflow:hidden;
+		}
+		.Zindex_sub_nav_hover_con_left dl{padding-bottom:18px;}
+		.Zindex_sub_nav_hover_con_left dt{margin-bottom:9px;}
+		.Zindex_sub_nav_hover_con_left dt a{font:bold 16px/16px "Microsoft YaHei";}
+		.Zindex_sub_nav_hover_con_left dt a:hover{
+			color:#e95b4c;
+			text-decoration: none;
+		}
+		.Zindex_sub_nav_hover_con_left dd a{
+			display:inline-block;
+			padding-right:25px;
+		}
+	/*li：hover时二级菜单的右边样式*/
+		.Zindex_sub_nav_hover_con_right{
+			float:right;
+			width:540px;
+			height:527px;
+		}
+		.Zindex_sub_nav_hover_con_right a{ padding: 0;}
+		.Zindex_sub_nav_hover_con_right .Zindex_hover_hot_brand{
+			width:514px;
+			height:167px; 
+			overflow:hidden;
+			padding:0 13px;
+		}	
+		.Zindex_sub_nav_hover_con_right dt{margin:20px 0 0 19px;}
+		.Zindex_sub_nav_hover_con_right dd{
+			float:left;
+			width:110px;
+			height:35px;
+			margin:19px 25px 0 0;
+		}
+		.Zindex_sub_nav_hover_con_right dd.marginrt24{margin-right:24px;}
+		.Zindex_sub_nav_hover_con_right dd.nomarginrt{margin-right:0;}
+
+/*轮播图盒子*/
+	.mbshop_home_page_V_banner_box{ 
+		width: 720px; 
+		height: 528px;
+		float:left; 
+		position: relative;
+	}
+	/*左右按钮*/
+	.mbshop_home_page_V_banner_btn span{ 
+		width: 20px; 
+		height: 50px; 
+		background: #999; 
+		position: absolute; 
+		right: 0; 
+		top: 50%; 
+		margin-top: -25px; 
+		cursor: pointer; 
+		z-index: 88;
+		display:none;
+	}
+	.mbshop_home_page_V_banner_btn .mbshop_home_page_V_banner_btn_left{ left: 0;}
+	.mbshop_home_page_V_banner_box:hover .mbshop_home_page_V_banner_btn span{ background: #000; display:block;}
+
+/*轮播图片区域*/
+	.mbshop_home_page_V_banner_pic{ 
+		width: 720px; 
+		height: 480px; 
+		position: relative;
+	}
+	.mbshop_home_page_V_banner_pic li{ 
+		width: 720px; 
+		height: 480px; 
+		position: absolute; 
+		left: 0; 
+		top: 0; 
+		display: none; 
+	}
+	/*轮播图片显示类名*/
+	.mbshop_home_page_V_banner_pic li.mbshop_home_page_V_banner_pic_showtime{ display: block;}
+	.mbshop_home_page_V_banner_pic li img{ 
+		width: 100%; 
+		height: 100%; 
+	}
+	
+/*轮播导航区域*/
+	.mbshop_home_page_V_banner_nav_box{  
+		height: 47px; 
+		border-bottom:1px solid #dcdcdc; 
+		text-align: center; 
+		overflow: hidden;
+	} 
+	.mbshop_home_page_V_banner_nav{ 
+		width: banner_speed0px; 
+		height: auto;
+		background-color: #fff; 
+	}
+/*这里修改导航显示模式，导航大小*/
+	.mbshop_home_page_V_banner_nav li{ 
+		float: left; 
+		height: 47px; 
+		text-align: center; 
+		line-height: 47px; 
+		font-size: 14px; 
+		font-weight: bold;
+		/*text-indent:5px;*//*缩进5像素*/
+		letter-spacing:2px; /*字间距为2像素*/ 
+		cursor: pointer; 
+		color: #666; 
+		box-sizing:border-box; 
+		padding-top: 3px; 
+		padding-bottom: 3px; 
+		white-space:nowrap; 
+		overflow: hidden; 
+		text-overflow:ellipsis; /*超出字数用省略号*/
+		background:url(http://s.mb-go.com/pub7/images/mbshop/20150720/indexbannernavline.png) no-repeat right center;
+		}
+	.mbshop_home_page_V_banner_nav li.nobg{background:none;}
+    /*导航点击效果*/
+	.mbshop_home_page_V_banner_nav li.mbshop_home_page_V_banner_nav_click{ 
+		color: #000; 
+		border-top: 3px solid #000; 
+		padding-top: 0;
+	}
+		
+/*轮播图左侧样式*/
+	.Zindex_banner_right{
+		float:left;
+		width:238px;
+		height:527px;
+		border:1px solid #dcdcdc;
+		border-top:0;
+	}
+	.Zindex_banner_right li{width:238px;height:179px; position:relative;}
+	.Zindex_banner_right .border_bt{
+		width: 238px; 
+		height: 347px;
+		border-bottom:1px solid #dcdcdc;
+		overflow:hidden;
+	}
+	.Zindex_banner_right .border_bt .border_bt_aposition{
+		position:absolute;
+		left:0;top:0;
+		overflow:hidden;
+	}
+	/*倒计时样式*/
+	.time_num{
+		position:absolute;
+		top:88px;
+		left:27px;
+		width:135px;
+		height:16px;
+	}
+	.time_w{font:bold 16px/16px Verdana;}
+	.time_num .time_txt{
+		font-style:normal;
+		color:#999;
+		font-size:12px;
+	}				
+/*热门商品*/ 
+	.zyHot_Brand{
+		width:1200px;
+		height:300px;
+		margin:4px auto 0;
+		overflow:hidden;
+	}
+	.zyHot_Brand ul{width:1300px;}
+	.zyHot_Brand ul li{
+		float:left;
+	}
+	.zyHot_Brand ul li a{
+		display:block;
+		width:236px;
+		height:300px;
+		margin-right:5px;
+	}
+	.zyHot_Brand ul li a:hover{text-decoration:none;}
+	.zyHot_Brand .Brand_bgf38249,.zyHot_Brand .Brand_bge96d4c{	
+		width:236px;
+		height:50px;
+		background-color:#f38249;
+		overflow:hidden;
+		position:relative;
+	}
+	.zyHot_Brand .Brand_bge96d4c{background-color:#e96d4c;}
+	.zyHot_Brand .Brand_bgf38249 img{background-color:#f38249;}
+	.zyHot_Brand .Brand_bge96d4c img{background-color:#e96d4c;}
+	.zyHot_Brand dd img{margin:5px 41px 5px 44px;}
+	.zyHot_Brand .Brand_bgf38249 span,.zyHot_Brand .Brand_bge96d4c span{
+		position:absolute;
+		top:5px;
+		left:5px;
+		width:40px;
+		height:40px;
+	}
+	.zyHot_Brand .Brand_bge96d4c span{
+		position:absolute;
+		top:5px;left:191px;
+	}
+	.zyHot_Brand .Brand_bgf38249 span img,.zyHot_Brand .Brand_bge96d4c span img{margin:0;}
+	.zyHot_Brand .Brand_text{
+		height:52px;
+		background-color:#fdece4;
+		padding:19px 21px;
+	}
+
+/*楼层样式*/
+	.zyCont_wrap{
+		width:1200px;
+		height:534px;
+		margin:0 auto;
+	}
+	.zyCont_wrap h1{
+		font-size:18px;
+		height:18px;
+		padding:25px 0 14px 0;
+		font-family:"Micorsoft yahei";
+	}
+	.zyCont_wrap h1 span{
+		display:inline-block;
+		width:4px;
+		height:18px;
+		background:url(http://s.mb-go.com/pub7/images/mbshop/20150720/indexdot.png) no-repeat 0 center;
+		margin:0 5px;
+	}
+	.zyCont_wrap .Cont{height:477px;}
+	.zyCont_wrap .Cont_Left{
+		float:left;
+		width:239px;
+		height:475px;
+		background-color:#fafafa;
+		overflow:hidden;
+		border:1px solid #dcdcdc;
+	}
+	.zyCont_wrap .KeyWords{
+		height:81px;
+		width:239px;
+	}
+	.zyCont_wrap .KeyWords .KeyWords_Left{
+		float:left;
+		padding:11px 0 10px 19px;
+	}
+	.zyCont_wrap .KeyWords .KeyWords_Right{
+		float:right;
+		padding:11px 40px 10px 0;
+	}
+	.zyCont_wrap .KeyWords li a{
+		display:block;
+		font-size:14px;
+		line-height:30px;
+	}
+	.zyCont_wrap .Cont_Left_Top{overflow:hidden;}
+	.zyCont_wrap .Cont_Left_Top img{width:239px;height:180px;}
+	.zyCont_wrap .Cont_Left_Bottom{
+		width:160px;
+		height:165px;
+		border-top:1px solid #dcdcdc;
+		padding:31px 40px 17px 39px;
+		overflow:hidden;
+	}
+	.zyCont_wrap .Cont_Left_Bottom li{
+		width:160px;
+		height:45px;
+		margin-bottom:10px;}
+	.zyCont_wrap .Cont_Right{
+		float:right;
+		width:959px;
+		height:477px;
+		overflow:hidden;
+	}
+	.zyCont_wrap .Cont_Right ul{	
+		width:1000px;
+		height:500px;}
+	.zyCont_wrap .Cont_Right li{
+		float:left;
+		margin:0 5px 5px 0;
+	}	
+	.zyCont_wrap .Cont_Right li.w236h477{width:236px;height:477px;}
+	.zyCont_wrap .Cont_Right li.w477h236{width:477px;height:236px;}
+	.zyCont_wrap .Cont_Right li.w236h236{width:236px;height:236px;}
+	.zyCont_wrap .Cont_Right li.w357h236{width:357px;height:236px;}
+/*分享下载样式*/
+	.zyShare_wrap{
+		width:1200px;
+		height:240px;
+		margin:0 auto;
+		margin-top:53px;
+		position:relative;
+	}
+	.zyShare_wrap .zyShare_Left,.zyShare_wrap .zyShare_Right{
+		float:left;
+	}
+	.zyShare_wrap .zyShare_Left li{
+		float:left;
+		width:279px;
+		height:238px;
+		border:1px solid #dcdcdc;
+		margin-right:-1px;
+		_display:inline;
+	}
+	.zyShare_wrap .zyShare_Right{
+		width:359px;height:238px;
+		border:1px solid #dcdcdc;
+	}
+	.zyShare_wrap .Contact_Top{
+		width:359px;
+		height:149px;
+		border-bottom:1px solid #dcdcdc;
+		text-align:center;	
+	}
+	.zyShare_wrap p{
+		color:#999999;
+		font-size:12px;
+		line-height:16px;
+	}
+	.zyShare_wrap .Contact_Title{
+		font:bold 16px/20px "Microsoft yahei";
+		color:#222;
+		padding:28px 0 15px;
+	}
+	.zyShare_wrap .Contact_Bottom{background-color:#fafafa;}
+	.zyShare_wrap .Contact_Bottom li{float:left;}
+	.zyShare_wrap .Contact_Bottom li{
+		display:block;
+		float:left;
+		width:120px;
+		height:88px;
+		text-align:center;
+		background:url(http://s.mb-go.com/pub7/images/mbshop/20150720/indexline.png) no-repeat right center;
+	}
+	.zyShare_wrap .Contact_Bottom a:hover{text-decoration:none;}
+	.zyShare_wrap .Contact_Bottom li.nobg{width:119px;background:none;}
+	.zyShare_wrap .Contact_Bottom li img{width:40px;height:40px;margin:14px auto 8px;}
+	.zyShare_wrap .Contact_Bottom p{font-weight:bold;}	
+/*全屏遮罩样式*/
+	.index_opinion_popbox_mask{
+		display:block;
+		width:100%;
+		height:100%;
+		position:fixed;
+		top:0;
+		left:0;
+		visibility:hidden;
+		background:rgba(0,0,0,0.6);
+		z-index:100;
+		/*兼容ie6的遮罩*/
+		height:3986px\9;
+		position:absolute\9;
+		filter:alpha(opacity=60)\9;
+		background:#000\9;
+	}
+/*意见反馈弹出框*/
+	.index_opinion_popbox{
+		width:520px;
+		height:487px;
+		border-radius:5px;
+		background-color:#f7f7f7;
+		padding:0 40px;
+		position:fixed;
+		left:50%;
+		top:50%;
+		z-index:101;
+		margin-top:-243px;
+		margin-left:-300px;
+		overflow:hidden;
+		display:none;
+		/*兼容ie6*/
+		_position: absolute;
+		_bottom: auto;
+		_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+		_margin-bottom:8px;
+	}
+	/*兼容ie6产生的闪动问题*/
+	*html{
+	background-image:url(about:blank);
+	background-attachment:fixed;
+	}
+	.index_opinion_popbox span{ display: block;}
+	.index_opinion_popbox span img{
+		width:15px;
+		height:15px;
+		position:absolute;
+		top:28px;
+		left:545px;
+		opacity:none!important;
+		float: left;
+		cursor: pointer;
+		background-color:#f7f7f7;
+		margin: 0!important;
+	}
+	.index_opinion_popbox h2{
+		font:bold 18px/18px "Microsoft yahei";
+		color:#333;
+		margin-top:25px;
+		text-align: center;
+	}
+	.index_opinion_popbox p{
+		margin:28px 80px;
+		text-align:left;
+		color:#999;
+	}
+	.index_opinion_popbox input,.index_opinion_popbox textarea{
+		border-radius:3px;
+		background-color:#fff;
+		margin-left:32px;
+		width:424px;
+		vertical-align:top;
+		color:#c9c9c9;
+		padding:8px 0 8px 16px;
+		line-height:24px;
+	}
+	.index_opinion_popbox i{
+		display:inline-block;
+		font-style:normal;
+		height:40px;
+		line-height:40px;
+		color:#999;
+		font-weight:bold;
+	}
+	.index_opinion_popbox input{
+		margin-bottom:40px;
+		height:24px;
+	}
+	.index_opinion_popbox textarea{
+		resize:none;
+		width:408px;
+		height:184px;
+		padding-right:16px;
+		overflow:hidden;	
+	}
+	.index_opinion_popbox .index_opinion_popbox_button{
+		background-color:#333;
+		width:100px;
+		height:30px;
+		color:#fff;
+		position:absolute;
+		top:427px;
+		left:460px; 
+		border-radius:3px;
+		vertical-align:middle;
+		text-align:center;
+		line-height: 30px;
+		padding:0;
+		margin:0;
+		cursor:pointer;
+	}	
+/*footer分区*/
+	.zyfooter{
+		width:1200px;
+		height:169px;
+		border-top:1px solid #dcdcdc;
+		border-bottom:1px solid #dcdcdc;
+		margin:20px auto 0;
+	}
+	.zyfooter dl{
+		float:left;
+		width:240px;
+	}
+	.zyfooter dt{
+		padding-left:20px;
+		margin-bottom:13px;
+		height:39px;
+		background:#f7f7f7;
+		font:bold 15px/39px "Microsoft YaHei";
+		color:#222222;
+	}
+	.zyfooter dt a{color:#222222;}
+	.zyfooter dd{
+		padding-left:20px;
+		line-height:26px;
+		font-weight:bold;
+		color:#999999;
+	}
+	.zyfooter dd a{color:#7e7e7e;}
+	/*返回顶部*/
+	.Zindex_back_top{
+		width:40px;
+		height:100px;
+		position:relative;
+		background-color: #fff;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
